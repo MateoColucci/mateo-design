@@ -1,0 +1,124 @@
+* {
+    font-family: monospace;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-size: 35px;
+    padding: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #7b7f9c;
+  }
+
+  .blackhole {
+    width: 550px;
+    height: 500px;
+    margin: 30px;
+    padding-left: 30px;
+  }
+
+  .planet {
+    border: 1px solid rgb(43, 92, 156);
+    border-radius: 50px;
+    background-color: rgb(43, 92, 156);
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 625px;
+    font-size: 20px;
+  }
+
+  h2 {
+    background-color: rgb(43, 92, 156);
+  }
+
+  .hubblepics {
+    height: 340px;
+    width: 365px;
+    margin: 30px;
+    display: inline;
+    position: absolute;
+    top: 130px;
+    left: 675px;
+  }
+
+  .hubble {
+    border: 1px solid rgb(43, 92, 156);
+    border-radius: 90px;
+    background-color: rgb(43, 92, 156);
+    display: inline-block;
+    position: absolute;
+    left: 675px;
+    top: 460px;
+    font-size: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+  }
+
+  .hubbleinfo {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    left: 1095px;
+    top: 153px;
+    font-size: 18px;
+  }
+
+  .moonphase {
+    display: inline-block;
+    position: absolute;
+    width: 650px;
+    height: 350px;
+    top: 520px;
+  }
+
+  .about {
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    top: 800px;
+    left: 565px;
+  }
+
+  .aboutinfo {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    top: 900px;
+    left: 30px;
+    border: 2px white solid;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  form {
+    display: inline-block;
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+    text-align: center;
+    font-size: 18px;
+  }

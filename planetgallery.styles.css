@@ -1,0 +1,96 @@
+* {
+    font-family: monospace;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-size: 35px;
+    padding: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #7b7f9c;
+  }
+
+.mercury {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+}
+
+.venus {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left: 800px;
+}
+
+.earth {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 800px;
+}
+
+.mars {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 800px;
+  left: 800px;
+}
+
+.jupiter {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 1600px;
+}
+
+.saturn {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 700px;
+  top: 1600px;
+  left: 645px;
+}
+
+.uranus {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 470px;
+  top: 2300px;
+}
+
+.neptune {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 2300px;
+  left: 800px;
+}
